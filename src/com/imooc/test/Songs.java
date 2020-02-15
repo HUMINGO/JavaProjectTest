@@ -61,6 +61,11 @@ public class Songs {
 		}
 		return false;
 	}
+
+	@Override
+	public String toString() {
+		return "Songs [id=" + id + ", 歌曲名称=" + name + ", 歌手=" + player + "]";
+	}
 	
 	
 	
